@@ -1,0 +1,29 @@
+# Requirements for Data Quality Tools
+# Instituto Alexander von Humboldt
+
+# ============================================================================
+# UNPIVOT SCRIPT
+# ============================================================================
+pandas>=1.3.0
+numpy>=1.21.0
+
+# ============================================================================
+# VALIDACIÓN GEOGRÁFICA
+# ============================================================================
+# NOTA: PyQGIS debe instalarse via sistema operativo, no via pip
+# 
+# En Ubuntu/Debian:
+#   sudo apt install qgis python3-qgis
+#
+# Las siguientes librerías vienen incluidas con QGIS:
+# - qgis.core
+# - qgis.analysis
+# - processing
+# - PyQt5
+#
+# NO instalar con pip install qgis (no funciona correctamente)
+
+# Python standard library (ya incluidas, listadas para referencia)
+# - sys
+# - pathlib
+# - os
